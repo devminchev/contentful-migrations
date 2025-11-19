@@ -1,0 +1,15 @@
+const PRODUCTION_SPACE = 'nw2595tc1jdx';
+const NA_SPACE = '6hs6aj69c5cq';
+
+
+const SITE_GAME_V2 = 'siteGameV2';
+const SITE_GAME = 'siteGame';
+const SECTION = 'section';
+
+const CONTENT_TYPES_V2 = [SITE_GAME_V2]
+const CONTENT_TYPES = [SITE_GAME, SECTION, SITE_GAME_V2]
+
+export {
+    CONTENT_TYPES_V2, CONTENT_TYPES,
+    PRODUCTION_SPACE, NA_SPACE, SECTION, SITE_GAME_V2, SITE_GAME
+}

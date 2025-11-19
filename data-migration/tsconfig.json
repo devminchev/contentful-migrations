@@ -1,0 +1,53 @@
+{
+    "nodeModulesDir": "auto",
+    "compilerOptions": {
+        "types": [
+            "node",
+        ],
+        "allowJs": true,
+        "checkJs": true,
+        "declaration": false,
+        "esModuleInterop": true, // Enables compatibility for default imports from CommonJS modules
+        "allowImportingTsExtensions": true,
+        "inlineSourceMap": true,
+        "isolatedModules": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": false,
+        "target": "esnext",
+        "useDefineForClassFields": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "src/**/*.js", // Include all JS/TS files in src directory
+        "src/**/*.d.ts" // Include all declaration files
+        ,
+        "src/euNewLobbyDesign/index.ts",
+        "src/euNewLobbyDesign/contentfulCLI.ts",
+        "src/euNewLobbyDesign/utils/fileOperations.ts",
+        "src/euNewLobbyDesign/utils/logging.ts",
+        "src/euNewLobbyDesign/constants.ts",
+        "src/euNewLobbyDesign/load/index.ts",
+        "src/euNewLobbyDesign/load/update.ts",
+        "src/euNewLobbyDesign/metadata/index.ts",
+        "src/euNewLobbyDesign/metadata/constants.ts",
+        "src/euNewLobbyDesign/transform/transformBannerSections.ts",
+        "src/euNewLobbyDesign/transform/transformCarouselSections.ts",
+        "src/euNewLobbyDesign/transform/transformCategoriesToNav.ts",
+        "src/euNewLobbyDesign/transform/transformCategoryToLink.ts",
+        "src/euNewLobbyDesign/transform/transformCollabModel.ts",
+        "src/euNewLobbyDesign/transform/transformDFGSection.ts",
+        "src/euNewLobbyDesign/transform/transformGameModelV2.ts",
+        "src/euNewLobbyDesign/transform/transformGridA.ts",
+        "src/euNewLobbyDesign/transform/transformSuggestedGames.ts",
+        "src/euNewLobbyDesign/transform/transformSiteGameModelV2.ts",
+        "src/euNewLobbyDesign/transform/transformSimiliaritySections.ts",
+        "src/euNewLobbyDesign/transform/transformPromoGridToIgPromoSections.ts",
+        "src/euNewLobbyDesign/transform/transformMiniGames.ts",
+        "src/euNewLobbyDesign/transform/transformMarketingSections.ts",
+        "src/euNewLobbyDesign/transform/transformLayoutstoViews.ts",
+        "src/euNewLobbyDesign/transform/transformJackpotSections.ts",
+        "src/unlinkWHGamesFromSection/index.ts"
+, "src/unlinkWHGamesFromSection/transform/unlinkWHSiteGames.ts", "src/unlinkWHGamesFromSection/load/update.ts"    ]
+}

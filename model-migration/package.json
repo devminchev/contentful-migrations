@@ -1,0 +1,20 @@
+{
+  "name": "migration",
+  "private": true,
+  "version": "1.125.0",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "prepare-migration": "node prepare-migration.js",
+    "migrate": "yarn run prepare-migration --"
+  },
+  "dependencies": {
+    "contentful-migration": "^4.20.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

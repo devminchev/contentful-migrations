@@ -1,0 +1,21 @@
+{
+    "games": [{
+        "gameSkin": "dancingdrums",
+        "newGameSkin": "SGD_DANCING_DRUMS_TEST_PROPER",
+        "gameKey": "dancing-drums-desktop",
+        "newGameKey": "play-sg-dancing-drums-test-proper",
+        "chatEnabledVentures": ["virgingames", "heart", "jackpotjoy"]
+    },{
+        "gameSkin": "actionbankplus",
+        "newGameSkin": "SGD_ACTION_BANK_PLUS_TEST_PROPER",
+        "gameKey": "action-bank-plus-desktop",
+        "newGameKey": "play-sg-action-bank-plus-test-proper",
+        "chatEnabledVentures": ["virgingames", "heart", "jackpotjoy"]
+    },{
+        "gameSkin": "jinjibaoxi",
+        "newGameSkin": "SGD_JIN_JI_BAO_XI_ENDLESS_TREASURES_TEST_PROPER",
+        "gameKey": "jin-ji-bao-xi-desktop",
+        "newGameKey": "play-sg-jin-ji-bao-xi-test-proper",
+        "chatEnabledVentures": ["virgingames", "heart", "jackpotjoy"]
+    }]
+}

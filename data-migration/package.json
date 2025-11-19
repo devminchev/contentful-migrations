@@ -1,0 +1,34 @@
+{
+  "name": "data-migration",
+  "private": true,
+  "version": "1.121.4",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start:deno": "deno run --allow-all --unstable-sloppy-imports ./src/index.js",
+    "start": "node ./src/index.js",
+    "lint": "eslint src/**/*.js --fix --format stylish",
+    "migrate:deno": "deno run --allow-all --unstable-sloppy-imports ./src/index.js",
+    "migrate": "node ./src/index.js",
+    "gamesv2-migration": "yarn migrate gameModelV2",
+    "layoutv2-migration": "yarn migrate layoutMigrationV2",
+    "clean": "rimraf node_modules"
+  },
+  "dependencies": {
+    "axios": "1.8.4",
+    "bottleneck": "^2.19.5",
+    "contentful-export": "^7.19.144",
+    "contentful-import": "^9.4.55",
+    "contentful-management": "^11.49.0",
+    "dotenv": "^16.4.5",
+    "readline": "^1.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^24.0.3",
+    "eslint": "9.29.0",
+    "minimist": "^1.2.5"
+  }
+}
