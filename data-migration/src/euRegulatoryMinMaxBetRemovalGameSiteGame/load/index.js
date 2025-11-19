@@ -6,7 +6,7 @@ import { writeFileSync, writeFile } from 'fs';
 
 export default async (model, spaceFolder, spaceLocale, targetEnv, targetSpace) => {
     try {
-        const client = createClient({ accessToken: 'CFPAT-AtDBQJeUUvDXjJam8sNK2Me1SEHdtlBczPL061XSHyM' });
+        const client = createClient({ accessToken: 'CFPAT-' });
         const space = await client.getSpace(targetSpace);
         const environment = await space.getEnvironment(targetEnv);
 
